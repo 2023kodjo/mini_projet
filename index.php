@@ -12,26 +12,27 @@
 <body>
     <br>
     <div class="container s1">
-        <br><br><br>
-        <div class="row text-white">
-        <h1> Formulaire d'inscription</h1>
+        <br>
+        <div class="row text-center bg-danger offset-3 col-md-6 text-white">
+         <h1> Formulaire d'inscription</h1>
         </div>
         
-      <form class="form" method="post" action="connexion.php">
-        <br>
-        <div class="row  offset-2 col-md-7">
-        <label for="nom">Entrez votre nom</label>
-        <input type="text" id="nom" name="nom" required>
+      <form class="form" method="post" action="enregistrement.php">
+         <br>
+        <div class="row  offset-2 col-md-8">
+          <label for="nom">Entrez votre nom</label>
+          <input type="text" id="nom" name="nom" required>
         </div> <br>
-        <div class="row offset-2 col-md-7">
-        <label for="prenom">Entrez votre prenom</label>
-        <input type="text" id="prenom" name="prenom" required>
+        <div class="row offset-2 col-md-8">
+          <label for="prenom">Entrez votre prenom</label>
+          <input type="text" id="prenom" name="prenom" required>
         </div> <br>
-        <div class="row offset-2 col-md-7">
-        <label for="date_de_naissance">Entrez votre date_de_naissance</label>
-        <input type="date" id="date_de_naissance" name="date_de_naissance" required>
+        <div class="row offset-2 col-md-8">
+          <label for="date_de_naissance">Entrez votre date_de_naissance</label>
+          <input type="date" id="date_de_naissance" name="date_de_naissance" required>
         </div> <br>
-        <div class="row offset-3 col-md-5">
+
+        <div class="row offset-3 col-md-6">
             <input type="submit" value="Enregistrer">
         </div>
        </form>  
