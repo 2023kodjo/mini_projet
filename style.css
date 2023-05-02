@@ -1,0 +1,23 @@
+.s1{
+    background-image: url(../image/la_fille.jpg);
+    height: 500px;
+}
+.form{
+    background-color: rgb(214, 17, 17);
+    opacity: 85%;
+    width: 500px;
+    height: 350px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: 310px;
+}
+label{
+    color: white;
+}
+.form :hover{
+    box-shadow: 2px 3px 17px rgb(12, 12, 12);
+    
+}
+.M{
+    background-color: blue;
+}
